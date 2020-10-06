@@ -24,6 +24,24 @@
             "after": ["l"]
         }
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["k"],
+            "after": ["h"]
+        },
+        {
+            "before": ["l"],
+            "after": ["j"]
+        },
+        {
+            "before": ["č"],
+            "after": ["k"]
+        },
+        {
+            "before": ["ć"],
+            "after": ["l"]
+        }
+    ],
     "glassit.alpha": 150,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.list.smoothScrolling": true,

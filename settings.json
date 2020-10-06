@@ -1,3 +1,5 @@
+// "after" is the DEFAULT keybind
+// "before" is the NEW keybind
 {
     "vim.useCtrlKeys": false,
     "vim.insertModeKeyBindingsNonRecursive": [

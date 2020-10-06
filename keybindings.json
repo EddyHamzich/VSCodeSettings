@@ -1,4 +1,5 @@
-// Place your key bindings in this file to override the default
+// place your key bindings in this file to override the default
+// if command starts with "-" it disables keybind. (disabled keybinds below)
 [
     {
         "key": "ctrl+e",
@@ -34,7 +35,10 @@
         "command": "list.selectAll",
         "when": "listFocus && listSupportsMultiselect && !inputFocus"
     },
-    // if command starts with "-" it disables keybind. (disabled keybinds below)
+    
+    
+    
+    
     {
         "key": "j",
         "command": "-list.focusDown",

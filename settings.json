@@ -24,9 +24,21 @@
         {
             "before": ["ć"],
             "after": ["l"]
+        },
+        {
+            "before": ["h"],
+            "after": ["<C-K>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<C-K>"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["k", "k"],
+            "after": ["<Esc>"]
+        },
         {
             "before": ["k"],
             "after": ["h"]
@@ -42,6 +54,14 @@
         {
             "before": ["ć"],
             "after": ["l"]
+        },
+        {
+            "before": ["h"],
+            "after": ["<C-K>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<C-K>"]
         }
     ],
     "glassit.alpha": 150,

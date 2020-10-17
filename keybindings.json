@@ -79,20 +79,5 @@
         "key": "ctrl+d",
         "command": "-extension.vim_ctrl+d",
         "when": "editorTextFocus && vim.active && !inDebugRepl"
-    },
-    {
-        "key": "shift+enter",
-        "command": "editor.action.nextMatchFindAction",
-        "when": "editorFocus && findInputFocussed"
-    },
-    {
-        "key": "enter",
-        "command": "-editor.action.nextMatchFindAction",
-        "when": "editorFocus && findInputFocussed"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-editor.action.previousMatchFindAction",
-        "when": "editorFocus && findInputFocussed"
-    },
+    }
 ]

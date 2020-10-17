@@ -6,7 +6,11 @@
         {
             "before": ["k", "k"],
             "after": ["<Esc>"]
-        }
+        },
+        {
+            "before": ["K", "K"],
+            "after": ["<Esc>"]
+        },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {

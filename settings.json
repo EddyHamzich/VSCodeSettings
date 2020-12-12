@@ -30,6 +30,10 @@
             "after": ["l"]
         },
         {
+            "before": ["s"],
+            "after": ["b"]
+        },
+        {
             "before": ["h"],
             "after": ["<C-K>"]
         },
@@ -74,7 +78,7 @@
     "editor.fastScrollSensitivity": 10,
     "editor.suggest.maxVisibleSuggestions": 5,
     "editor.scrollBeyondLastColumn": 10,
-    "editor.quickSuggestionsDelay": 1000,
+    "editor.quickSuggestionsDelay": 0,
     "editor.minimap.enabled": false,
     "editor.smoothScrolling": true,
     "editor.fontSize": 10,
@@ -112,10 +116,11 @@
             },
         ]
     },
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "files.exclude": {
         "**.mod": true,
         "**.sum": true,
+        "**/bin": true,
         "**/obj": true
     },
     "go.formatTool": "goimports",
@@ -130,4 +135,7 @@
     "breadcrumbs.enabled": true,
     "code-runner.runInTerminal": true,
     "explorer.confirmDragAndDrop": false,
+    "csharpextensions.privateMemberPrefix": "_",
+    "csharpextensions.useThisForCtorAssignments": false,
+    "omnisharp.enableImportCompletion": true
 }
